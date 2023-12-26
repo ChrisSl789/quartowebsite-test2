@@ -1,0 +1,30 @@
+[
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site\n\n1 + 1\n\n[1] 2"
+  },
+  {
+    "objectID": "doc1.html",
+    "href": "doc1.html",
+    "title": "Default Quarto Document",
+    "section": "",
+    "text": "A document with a plot\n\nlibrary(ggplot2)\nqplot(mpg, wt, data = mtcars)\n\nWarning: `qplot()` was deprecated in ggplot2 3.4.0."
+  },
+  {
+    "objectID": "doc2.html",
+    "href": "doc2.html",
+    "title": "Second Quarto Document",
+    "section": "",
+    "text": "A document with a plot and smooth\n\nlibrary(ggplot2)\nqplot(mpg, wt, data = mtcars) + geom_smooth()\n\nWarning: `qplot()` was deprecated in ggplot2 3.4.0.\n\n\n`geom_smooth()` using method = 'loess' and formula = 'y ~ x'"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "quartowebsite-test",
+    "section": "",
+    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites.\n\n1 + 1\n\n[1] 2"
+  }
+]

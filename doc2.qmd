@@ -1,0 +1,14 @@
+---
+title: "Second Quarto Document"
+---
+
+
+A document with a plot and smooth
+
+```{r}
+
+library(ggplot2)
+qplot(mpg, wt, data = mtcars) + geom_smooth()
+
+```
+
